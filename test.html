@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke API</title>
+</head>
+<body>
+  <form action="/" id="form" class="form" method="POST">
+    <select name="categories" class="form-select">
+      <option value="" data-display="Select">Select</option>
+      <option value="any">Any</option>
+      <option value="programming">Programming</option>
+      <option value="misc">Misc</option>
+      <option value="dark">Dark</option>
+      <option value="pun">Pun</option>
+      <option value="spooky">Spooky</option>
+      <option value="christmas">Christmas</option>
+    </select>
+    <select name="flags" class="form-select">
+      <option value="">Select</option>
+      <option value="nsfw">nsfw</option>
+      <option value="religious">religious</option>
+      <option value="political">political</option>
+      <option value="racist">racist</option>
+      <option value="sexist">sexist</option>
+      <option value="explicit">explicit</option>
+    </select>
+    <input type="text" name="amount" placeholder="Amount">
+    <button type="submit" class="form-submit">Go</button>
+  </form>
+</body>
+</html>
